@@ -1,0 +1,9 @@
+{
+  "go.useLanguageServer": true,
+  "go.formatTool": "gofmt",
+  "go.lintTool": "golangci-lint",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "golang.go",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true
+}

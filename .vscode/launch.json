@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch tensor-usbdl",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/cmd/tensor-usbdl",
+      "args": [],
+      "cwd": "${workspaceFolder}/cmd/tensor-usbdl",
+      "env": {},
+      "showLog": true
+    },
+    {
+      "name": "tensor-usbdl help",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/cmd/tensor-usbdl",
+      "args": ["-h"],
+      "cwd": "${workspaceFolder}/cmd/tensor-usbdl",
+      "env": {},
+      "showLog": true
+    }
+  ]
+}
